@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Basic styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Header styles */
+    header {
+      background-color: #232f3e;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    /* Product grid styles */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+    
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .product img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+    }
+    
+    .product h3 {
+      margin-top: 10px;
+    }
+    
+    .product p {
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BJW</h1>
+  </header>
+
+  <div class="product-grid">
+    <div class="product">
+      <img src="AThousandSuns.jpg" alt="Item 1">
+      <h3>Item 1</h3>
+      <p>$19.99</p>
+    </div>
+    <div class="product">
+      <img src="item2.jpg" alt="Item 2">
+      <h3>Item 2</h3>
+      <p>$29.99</p>
+    </div>
+    <div class="product">
+      <img src="item3.jpg" alt="Item 3">
+      <h3>Item 3</h3>
+      <p>$39.99</p>
+    </div>
+  </div>
+</body>
+</html>
